@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-app-green: #0cc08a;
+
+  --color-app-green-50: #e6fbf1;
+  --color-app-green-100: #cef6e2;
+  --color-app-green-200: #9dedc5;
+  --color-app-green-300: #6be5a9;
+  --color-app-green-400: #3adc8c;
+  --color-app-green-500: #09dd6f;
+  --color-app-green-600: #07a959;
+  --color-app-green-700: #057f43;
+  --color-app-green-800: #04542c;
+  --color-app-green-900: #022a16;
+
+  --color-app-red: #f92f60;
+
+  --color-app-red-50: #feeaef;
+  --color-app-red-100: #fed5df;
+  --color-app-red-200: #fdacbf;
+  --color-app-red-300: #fb82a0;
+  --color-app-red-400: #fa5980;
+  --color-app-red-500: #f92f60;
+  --color-app-red-600: #c7264d;
+  --color-app-red-700: #951c3a;
+  --color-app-red-800: #641326;
+  --color-app-red-900: #320913;
+
+  --color-app-text: #050609;
+
+  --color-app-text-50: #e6e6e6;
+  --color-app-text-100: #cdcdce;
+  --color-app-text-200: #9b9b9d;
+  --color-app-text-300: #696a6b;
+  --color-app-text-400: #37383a;
+  --color-app-text-500: #050609;
+  --color-app-text-600: #040507;
+  --color-app-text-700: #030405;
+  --color-app-text-800: #020204;
+  --color-app-text-900: #010102;
+
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+}
